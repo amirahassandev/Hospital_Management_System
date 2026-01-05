@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MR.GENIUS\\Desktop\\Hospital\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "projectUniqueName": "D:\\job\\Work_Instructor\\Physics\\Hospital_Management_System\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
       "projectName": "HospitalManagementSystem",
-      "projectPath": "C:\\Users\\MR.GENIUS\\Desktop\\Hospital\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "projectPath": "D:\\job\\Work_Instructor\\Physics\\Hospital_Management_System\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
       "packagesPath": "C:\\Users\\MR.GENIUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MR.GENIUS\\Desktop\\Hospital\\HospitalManagementSystem\\obj\\",
+      "outputPath": "D:\\job\\Work_Instructor\\Physics\\Hospital_Management_System\\HospitalManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
