@@ -1,16 +1,9 @@
 Create database Hospital
+use Hospital
 
-Create table [User](
-	UserId int Identity(1,1) primary key,
-	PasswordHash nvarchar(255) not null,
-	Email nvarchar(50) unique not null,
-	CreatedAt DateTime default Getdate(),
-	FirstName nvarchar(50) not null,
-	LastName nvarchar(50),
-	DateOfBirth Date not null,
-	Gender Bit NOT NULL,  -- 0 (Female), 1(Male)
-	Age int,
-	Phone nvarchar(20) NOT NULL,
+Create Table [Role](
+	RoleId int Identity(1,1) primary key,
+	RoleType nvarchar(20) not null
 )
 
 Create table Department(
@@ -39,14 +32,21 @@ Create table RoomStatus(
 	[Status] nvarchar(20) Not null, -- Available, Occupied, Maintenance
 )
 
-
-
-Create Table [Role](
-	RoleId int Identity(1,1) primary key,
-	RoleType nvarchar(20) not null,
-	UserId int not null unique,
-	Constraint FK_ROLE_USER Foreign key (UserId) References [User](UserId)
+Create table [User](
+	UserId int Identity(1,1) primary key,
+	PasswordHash nvarchar(255) not null,
+	Email nvarchar(50) unique not null,
+	CreatedAt DateTime default Getdate(),
+	FirstName nvarchar(50) not null,
+	LastName nvarchar(50),
+	DateOfBirth Date not null,
+	Gender Bit NOT NULL,  -- 0 (Female), 1(Male)
+	Age int,
+	Phone nvarchar(20) NOT NULL,
+	RoleId int not  null,
+	Constraint FK_USER_ROLE Foreign key (RoleId) References [Role](RoleId)
 )
+
 
 Create table Receptionist(
 	ReceptionistId int Identity(1,1) primary key,
@@ -86,7 +86,6 @@ Create Table MedicalRecords(
 	Treatment nvarchar(50) not null,
 	Notes nvarchar(50) not null,
 	RecordDate Date default getDate(),
-
 	PatientId int not null,
 	DoctorId int not null,
 	Constraint FK_MEDICAL_PATIENT Foreign key (PatientId) References Patient(PatientId),
