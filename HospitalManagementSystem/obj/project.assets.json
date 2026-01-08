@@ -4471,23 +4471,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MR.GENIUS\\.nuget\\packages\\": {},
+    "C:\\Users\\Nada Abdelrahman\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Nada Abdelrahman\\Documents\\GitHub\\Hospital_Management_System\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
       "projectName": "HospitalManagementSystem",
-      "projectPath": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\MR.GENIUS\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\Nada Abdelrahman\\Documents\\GitHub\\Hospital_Management_System\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\Nada Abdelrahman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nada Abdelrahman\\Documents\\GitHub\\Hospital_Management_System\\HospitalManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MR.GENIUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nada Abdelrahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4514,7 +4514,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4554,6 +4554,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4562,16 +4580,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-    }
-  ]
+  }
 }
