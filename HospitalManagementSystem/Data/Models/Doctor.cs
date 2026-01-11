@@ -22,6 +22,13 @@ public partial class Doctor
     public string? Certificate { get; set; }
 
     public int SpecializationId { get; set; }
+    [StringLength(100)]
+    public string LicenseNumber { get; set; } = null!;
+    public bool IsActive { get; set; } = true;
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal ConsultationFee { get; set; }
+
 
     [InverseProperty("Doctor")]
     public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();

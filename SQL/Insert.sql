@@ -56,9 +56,9 @@ INSERT INTO Nurse (UserId, DepartmentId)
 VALUES
 (4, 1);  -- Nurse David in Cardiology
 
-INSERT INTO Doctor (UserId, YearsOfExperience, Certificate, SpecializationId)
+INSERT INTO Doctor (UserId, YearsOfExperience, Certificate, SpecializationId, LicenseNumber, IsActive, ConsultationFee)
 VALUES
-(3, 10, 'MD Cardiology', 1);  -- Doctor Carol
+(3, 10, 'MD Cardiology', 1, 'LIC-2024-001', 1, 500.00);  -- Doctor Carol
 
 INSERT INTO Patient (BloodType, UserId)
 VALUES

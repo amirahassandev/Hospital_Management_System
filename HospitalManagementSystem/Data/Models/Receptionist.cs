@@ -14,6 +14,7 @@ public partial class Receptionist
     public int ReceptionistId { get; set; }
 
     public DateOnly ReceptionistShift { get; set; }
+    public bool IsActive { get; set; } = true;
 
     public int UserId { get; set; }
 

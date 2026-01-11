@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalManagementSystem.Data.Dto.User
 {
-    public class UserDto
+    public class UserReadDto
     {
         public int UserId { get; set; }
         //public string PasswordHash { get; set; } = null!;
@@ -16,7 +16,9 @@ namespace HospitalManagementSystem.Data.Dto.User
         public DateOnly DateOfBirth { get; set; }
         public int? Age { get; set; }
         public string? Gender { get; set; }
-        public virtual string Role { get; set; } = null!;
+        public string Role { get; set; } = null!;
+        public bool IsActive { get; set; } = true;
+
         //public virtual Doctor? Doctor { get; set; }
         //public virtual Nurse? Nurse { get; set; }
         //public virtual Patient? Patient { get; set; }

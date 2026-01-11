@@ -1,5 +1,7 @@
 
 using HospitalManagementSystem.Data;
+using HospitalManagementSystem.Data.Mappers;
+using HospitalManagementSystem.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagementSystem
@@ -22,6 +24,20 @@ namespace HospitalManagementSystem
                 builder.Configuration.GetConnectionString("hospitalConn")
                 )
             );
+
+            builder.Services.AddAutoMapper(
+                typeof(UserProfile),
+                typeof(NurseProfile),
+                typeof(NurseDoctorProfile),
+                typeof(RoomProfile),
+                typeof(AppointmentProfile),
+                typeof(DepartmentProfile),
+                typeof(DoctorProfile),
+                typeof(MedicalRecordProfile),
+                typeof(ReceptionistProfile)
+            );
+
+
             var app = builder.Build();
             
 

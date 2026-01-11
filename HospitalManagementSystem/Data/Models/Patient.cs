@@ -15,6 +15,7 @@ public partial class Patient
 
     [StringLength(20)]
     public string BloodType { get; set; } = null!;
+    public bool IsActive { get; set; } = true;
 
     public int UserId { get; set; }
 

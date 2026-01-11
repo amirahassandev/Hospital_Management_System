@@ -1,33 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\",
+  "WorkspaceRootPath": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\dto\\user\\updateemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\dto\\user\\updateemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\data\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\data\\dto\\user\\userwithpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\dto\\user\\userwithpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\data\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\data\\dto\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\dto\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\dto\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\dto\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,94 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserWithPasswordDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\UserWithPasswordDto.cs",
-              "RelativeDocumentMoniker": "Data\\Dto\\User\\UserWithPasswordDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\UserWithPasswordDto.cs",
-              "RelativeToolTip": "Data\\Dto\\User\\UserWithPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "Controllers\\UsersController.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswCwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:08:31.237Z",
+              "WhenOpened": "2026-01-05T05:37:37.792Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Mappers\\UserMapper.cs",
-              "RelativeDocumentMoniker": "Data\\Mappers\\UserMapper.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Mappers\\UserMapper.cs",
-              "RelativeToolTip": "Data\\Mappers\\UserMapper.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvyQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:41:04.925Z",
+              "WhenOpened": "2026-01-05T07:41:42.228Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Dto\\User\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Data\\Dto\\User\\UpdateUserDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Dto\\User\\UpdateUserDto.cs",
+              "RelativeToolTip": "Data\\Dto\\User\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T20:02:22.239Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateEmailDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Dto\\User\\UpdateEmailDto.cs",
+              "RelativeDocumentMoniker": "Data\\Dto\\User\\UpdateEmailDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Dto\\User\\UpdateEmailDto.cs",
+              "RelativeToolTip": "Data\\Dto\\User\\UpdateEmailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T21:49:49.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "Data\\Dto\\User\\CreateUserDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\CreateUserDto.cs",
-              "RelativeToolTip": "Data\\Dto\\User\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T09:40:07.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Models\\User.cs",
-              "RelativeToolTip": "Data\\Models\\User.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:41:42.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "Data\\Dto\\User\\UserDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Data\\Dto\\User\\UserDto.cs",
-              "RelativeToolTip": "Data\\Dto\\User\\UserDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:27:12.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Controllers\\UsersController.cs*",
-              "RelativeToolTip": "Controllers\\UsersController.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAiwC8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T05:37:37.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Program.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital\\HospitalManagementSystem\\Program.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T23:23:43.732Z"
+              "WhenOpened": "2026-01-11T13:33:23.422Z"
             }
           ]
         }

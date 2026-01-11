@@ -14,6 +14,7 @@ public partial class Nurse
     public int NurseId { get; set; }
 
     public int UserId { get; set; }
+    public bool IsActive { get; set; } = true;
 
     public int DepartmentId { get; set; }
 

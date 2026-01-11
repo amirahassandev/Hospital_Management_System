@@ -1,4 +1,5 @@
-Create database Hospital
+create database Hospital
+
 use Hospital
 
 Create Table [Role](
@@ -41,9 +42,9 @@ Create table [User](
 	LastName nvarchar(50),
 	DateOfBirth Date not null,
 	Gender Bit NOT NULL,  -- 0 (Female), 1(Male)
-	Age int,
 	Phone nvarchar(20) NOT NULL,
 	RoleId int not  null,
+	IsActive BIT NOT NULL DEFAULT 1,
 	Constraint FK_USER_ROLE Foreign key (RoleId) References [Role](RoleId)
 )
 
@@ -52,6 +53,7 @@ Create table Receptionist(
 	ReceptionistId int Identity(1,1) primary key,
 	ReceptionistShift Date not null,
 	UserId int not null Unique, 
+	IsActive BIT NOT NULL DEFAULT 1
 	Constraint FK_RECEPTIONIST_USER Foreign key (UserId) References [User](UserId)
 )
 
@@ -59,6 +61,7 @@ Create table Nurse(
 	NurseId int Identity(1,1) primary key,
 	UserId int not null Unique,
 	DepartmentId int not null,
+	IsActive BIT NOT NULL DEFAULT 1,
 	Constraint FK_NURSE_USER Foreign key (UserId) References [User](UserId),
 	Constraint FK_NURSE_DEPARTMENT Foreign key (DepartmentId) References Department(DepartmentId)
 )
@@ -69,6 +72,9 @@ Create table Doctor(
 	UserId int not null Unique,
 	[Certificate] varchar(50),
 	SpecializationId int not null,
+	LicenseNumber NVARCHAR(255) NOT NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    ConsultationFee DECIMAL(10,2) NOT NULL,
 	Constraint FK_DOCTOR_USER Foreign key (UserId) References [User](UserId),
 	Constraint FK_SPECIALIZATION_USER Foreign key (SpecializationId) References Specialization(SpecializationId),
 )

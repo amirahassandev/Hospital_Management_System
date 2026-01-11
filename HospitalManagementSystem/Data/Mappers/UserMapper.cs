@@ -11,10 +11,10 @@ namespace HospitalManagementSystem.Data.Mappers
     {
         private static readonly HospitalDbContext _db;
 
-        public static UserDto ConvertUserToUserDto(User user)
+        public static UserReadDto ConvertUserToUserDto(User user)
         {
             if (user == null) { return null; }
-            return new UserDto
+            return new UserReadDto
             {
                 UserId = user.UserId,
                 FirstName = user.FirstName,
@@ -29,10 +29,10 @@ namespace HospitalManagementSystem.Data.Mappers
             };
         }
 
-        public static List<UserDto> ConvertUsersToUsersDto(List<User> users)
+        public static List<UserReadDto> ConvertUsersToUsersDto(List<User> users)
         {
             if (users.Count == 0) { return null; }
-            List<UserDto> usersDto = new List<UserDto>();
+            List<UserReadDto> usersDto = new List<UserReadDto>();
             foreach (var user in users)
             {
                 usersDto?.Add(UserMapper.ConvertUserToUserDto(user));
@@ -40,22 +40,6 @@ namespace HospitalManagementSystem.Data.Mappers
             return usersDto;
         }
 
-        public static User ConvertUserWithPasswordDtoToUserEntity(UserWithPasswordDto user)
-        {
-            return new User
-            {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                //PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password),
-                PasswordHash = user.Password,
-                Age = DateTime.Today.Year - user.DateOfBirth.Year,
-                DateOfBirth = user.DateOfBirth,
-                Email = user.Email,
-                Gender = (user.Gender != null && user.Gender.Trim().ToLower() == "male") ? true : false,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                CreatedAt = DateTime.Now,
-            };
-        }
+
     }
 }

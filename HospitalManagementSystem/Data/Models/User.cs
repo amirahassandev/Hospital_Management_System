@@ -32,10 +32,9 @@ public partial class User
 
     public bool Gender { get; set; }
 
-    public int? Age { get; set; }
-
     [StringLength(20)]
     public string Phone { get; set; } = null!;
+    public bool IsActive { get; set; } = true;
 
     public int RoleId { get; set; }
 
