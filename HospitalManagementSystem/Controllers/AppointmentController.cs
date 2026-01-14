@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using HospitalManagementSystem.Data;
-using HospitalManagementSystem.Data.Dto.Appointment;
-using HospitalManagementSystem.Models;
+using HospitalManagementSystem.Data.Models;
+using HospitalManagementSystem.Dto.Appointment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

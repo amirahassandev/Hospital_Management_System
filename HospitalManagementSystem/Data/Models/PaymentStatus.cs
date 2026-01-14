@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace HospitalManagementSystem.Models;
+namespace HospitalManagementSystem.Data.Models;
 
 [Table("PaymentStatus")]
 [Index("StatusName", Name = "UQ__PaymentS__05E7698AEE2D715A", IsUnique = true)]

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace HospitalManagementSystem.Models;
+namespace HospitalManagementSystem.Data.Models;
 
 [Table("User")]
 [Index("Email", Name = "UQ__User__A9D10534C6DA49C1", IsUnique = true)]

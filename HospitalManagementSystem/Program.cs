@@ -1,7 +1,8 @@
 
 using HospitalManagementSystem.Data;
-using HospitalManagementSystem.Data.Mappers;
-using HospitalManagementSystem.Mapping;
+using HospitalManagementSystem.Mappers;
+using HospitalManagementSystem.Repositories;
+using HospitalManagementSystem.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagementSystem
@@ -34,8 +35,15 @@ namespace HospitalManagementSystem
                 typeof(DepartmentProfile),
                 typeof(DoctorProfile),
                 typeof(MedicalRecordProfile),
-                typeof(ReceptionistProfile)
+                typeof(ReceptionistProfile),
+                typeof(PatientProfile)
             );
+
+            builder.Services.AddScoped<IPationtRepository, PatientRepository>();
+            builder.Services.AddScoped<IPatientService, PatientService>();
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
 
             var app = builder.Build();

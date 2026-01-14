@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using HospitalManagementSystem.Data;
-using HospitalManagementSystem.Data.Dto.MediaclRecord;
-using HospitalManagementSystem.Models;
+using HospitalManagementSystem.Data.Models;
+using HospitalManagementSystem.Dto.MediaclRecord;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;

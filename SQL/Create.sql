@@ -83,6 +83,8 @@ Create table Patient(
 	PatientId int Identity(1,1) primary key,
 	BloodType nvarchar(20) not null,
 	UserId int not null Unique, 
+	IsActive BIT NOT NULL DEFAULT 1,
+	DeactivationReason nvarchar(255),
 	Constraint FK_PATIENT_USER Foreign key (UserId) References [User](UserId)
 )
 

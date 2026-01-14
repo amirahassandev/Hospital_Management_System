@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace HospitalManagementSystem.Models;
+namespace HospitalManagementSystem.Data.Models;
 
 [Table("Room")]
 public partial class Room

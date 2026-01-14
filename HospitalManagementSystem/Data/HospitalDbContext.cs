@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using HospitalManagementSystem.Models;
+using HospitalManagementSystem.Data.Models;
+//using HospitalManagementSystem.Data.Models.Patient;
+//using HospitalManagementSystem.Data.Models.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagementSystem.Data;

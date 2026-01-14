@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace HospitalManagementSystem.Models;
+namespace HospitalManagementSystem.Data.Models;
 
 [Table("Patient")]
 [Index("UserId", Name = "UQ__Patient__1788CC4DA0CE33C8", IsUnique = true)]
@@ -16,6 +16,7 @@ public partial class Patient
     [StringLength(20)]
     public string BloodType { get; set; } = null!;
     public bool IsActive { get; set; } = true;
+    public string? DeactivationReason { get; set; }
 
     public int UserId { get; set; }
 

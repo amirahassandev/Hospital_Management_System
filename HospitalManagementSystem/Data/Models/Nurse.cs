@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace HospitalManagementSystem.Models;
+namespace HospitalManagementSystem.Data.Models;
 
 [Table("Nurse")]
 [Index("UserId", Name = "UQ__Nurse__1788CC4D18FE76E4", IsUnique = true)]

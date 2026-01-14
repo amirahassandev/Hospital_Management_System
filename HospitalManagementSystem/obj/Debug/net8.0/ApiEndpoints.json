@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Appointment.AppointmentReadDto",
+        "Type": "HospitalManagementSystem.Dto.Appointment.AppointmentReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -40,7 +40,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Appointment.AppointmentUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Appointment.AppointmentUpdateDto",
         "IsRequired": true
       }
     ],
@@ -72,13 +72,13 @@
     "Parameters": [
       {
         "Name": "appointmentCreateDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Appointment.AppointmentCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Appointment.AppointmentCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Appointment.AppointmentReadDto",
+        "Type": "HospitalManagementSystem.Dto.Appointment.AppointmentReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -98,7 +98,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Appointment.AppointmentReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Appointment.AppointmentReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,13 +118,13 @@
     "Parameters": [
       {
         "Name": "departmentDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Department.DepartmentCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Department.DepartmentCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Department.DepartmentReadDto",
+        "Type": "HospitalManagementSystem.Dto.Department.DepartmentReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -150,7 +150,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Department.DepartmentReadDto",
+        "Type": "HospitalManagementSystem.Dto.Department.DepartmentReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -175,7 +175,7 @@
       },
       {
         "Name": "departmentDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Department.DepartmentUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Department.DepartmentUpdateDto",
         "IsRequired": true
       }
     ],
@@ -207,7 +207,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Department.DepartmentReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Department.DepartmentReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -233,7 +233,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Doctor.DoctorReadDto",
+        "Type": "HospitalManagementSystem.Dto.Doctor.DoctorReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -258,7 +258,7 @@
       },
       {
         "Name": "doctorDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Doctor.DoctorUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Doctor.DoctorUpdateDto",
         "IsRequired": true
       }
     ],
@@ -290,13 +290,13 @@
     "Parameters": [
       {
         "Name": "doctorDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Doctor.DoctorCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Doctor.DoctorCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Doctor.DoctorReadDto",
+        "Type": "HospitalManagementSystem.Dto.Doctor.DoctorReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -316,7 +316,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Doctor.DoctorReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Doctor.DoctorReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -342,7 +342,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.MediaclRecord.MedicalRecordReadDto",
+        "Type": "HospitalManagementSystem.Dto.MediaclRecord.MedicalRecordReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -383,7 +383,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.MediaclRecord.MedicalRecordUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.MediaclRecord.MedicalRecordUpdateDto",
         "IsRequired": true
       }
     ],
@@ -399,13 +399,13 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.MediaclRecord.MedicalRecordCreateDto",
+        "Type": "HospitalManagementSystem.Dto.MediaclRecord.MedicalRecordCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.MediaclRecord.MedicalRecordReadDto",
+        "Type": "HospitalManagementSystem.Dto.MediaclRecord.MedicalRecordReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -425,7 +425,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.MediaclRecord.MedicalRecordReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.MediaclRecord.MedicalRecordReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -451,7 +451,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Nurse.NurseReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Nurse.NurseReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -476,7 +476,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Nurse.NurseUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Nurse.NurseUpdateDto",
         "IsRequired": true
       }
     ],
@@ -508,13 +508,13 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Nurse.NurseCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Nurse.NurseCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Nurse.NurseReadDto",
+        "Type": "HospitalManagementSystem.Dto.Nurse.NurseReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -534,7 +534,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Nurse.NurseReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Nurse.NurseReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -560,7 +560,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorReadDto",
+        "Type": "HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -585,7 +585,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorUpdateDto",
         "IsRequired": true
       }
     ],
@@ -606,7 +606,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorUpdateDto",
         "IsRequired": true
       }
     ],
@@ -638,13 +638,13 @@
     "Parameters": [
       {
         "Name": "nurseDoctorDto",
-        "Type": "HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorCreateDto",
+        "Type": "HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorReadDto",
+        "Type": "HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -664,7 +664,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.NurseDoctor.NurseDoctorReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.NurseDoctor.NurseDoctorReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -673,6 +673,254 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "AddPatient",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientDto",
+        "Type": "HospitalManagementSystem.Dto.Patient.AddPatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "GetPatient",
+    "RelativePath": "api/Patients/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "UpdatePatient",
+    "RelativePath": "api/Patients/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDto",
+        "Type": "HospitalManagementSystem.Dto.Patient.UpdatePatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "DeletePatient",
+    "RelativePath": "api/Patients/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "DeactivatePatient",
+    "RelativePath": "api/Patients/{id}/deactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "GetBloodType",
+    "RelativePath": "api/Patients/{id}/getBloodType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "IsActive",
+    "RelativePath": "api/Patients/{id}/IsActive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "IsAdult",
+    "RelativePath": "api/Patients/{id}/IsAdult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "ReactivatePatient",
+    "RelativePath": "api/Patients/{id}/reactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "Count",
+    "RelativePath": "api/Patients/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "GetAllDeactivated",
+    "RelativePath": "api/Patients/deactivetedPatients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "SearchByAge",
+    "RelativePath": "api/Patients/searchByAge",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minAge",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxAge",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "SearchByBloodTypeAsync",
+    "RelativePath": "api/Patients/searchByBloodType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bloodType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "SearchByGenderAsync",
+    "RelativePath": "api/Patients/searchByGender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gender",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",
+    "Method": "SearchByNameAsync",
+    "RelativePath": "api/Patients/searchByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HospitalManagementSystem.Controllers.ReceptionistsController",
@@ -690,7 +938,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Receptionist.ReceptionistReadDto",
+        "Type": "HospitalManagementSystem.Dto.Receptionist.ReceptionistReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -715,7 +963,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Receptionist.ReceptionistUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Receptionist.ReceptionistUpdateDto",
         "IsRequired": true
       }
     ],
@@ -747,13 +995,13 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Receptionist.ReceptionistCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Receptionist.ReceptionistCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Receptionist.ReceptionistReadDto",
+        "Type": "HospitalManagementSystem.Dto.Receptionist.ReceptionistReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -773,7 +1021,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Receptionist.ReceptionistReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Receptionist.ReceptionistReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -799,7 +1047,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Room.RoomReadDto",
+        "Type": "HospitalManagementSystem.Dto.Room.RoomReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -824,7 +1072,7 @@
       },
       {
         "Name": "dto",
-        "Type": "HospitalManagementSystem.Data.Dto.Room.RoomUpdateDto",
+        "Type": "HospitalManagementSystem.Dto.Room.RoomUpdateDto",
         "IsRequired": true
       }
     ],
@@ -856,13 +1104,13 @@
     "Parameters": [
       {
         "Name": "roomDto",
-        "Type": "HospitalManagementSystem.Data.Dto.Room.RoomCreateDto",
+        "Type": "HospitalManagementSystem.Dto.Room.RoomCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HospitalManagementSystem.Data.Dto.Room.RoomReadDto",
+        "Type": "HospitalManagementSystem.Dto.Room.RoomReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -882,7 +1130,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Data.Dto.Room.RoomReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HospitalManagementSystem.Dto.Room.RoomReadDto, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -891,5 +1139,152 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HospitalManagementSystem.Dto.User.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HospitalManagementSystem.Dto.User.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "UpdateEmail",
+    "RelativePath": "api/Users/{id}/email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HospitalManagementSystem.Dto.User.UpdateEmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "IsActive",
+    "RelativePath": "api/Users/{id}/isActive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/Users/{id}/password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HospitalManagementSystem.Dto.User.UpdatePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.UsersController",
+    "Method": "GetAllDeactive",
+    "RelativePath": "api/Users/deactive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

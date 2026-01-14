@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using HospitalManagementSystem.Data;
-using HospitalManagementSystem.Data.Dto.Room;
+using HospitalManagementSystem.Data.Models;
+using HospitalManagementSystem.Dto.Room;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -58,7 +59,7 @@ namespace HospitalManagementSystem.Controllers
             var roomStatusExists = await _db.RoomStatuses.AnyAsync(rs => rs.RoomStatusId == roomDto.RoomStatusId);
             if (!roomStatusExists)
                 return BadRequest("Room Status does not exist.");
-            var room = _mapper.Map<HospitalManagementSystem.Models.Room>(roomDto);
+            var room = _mapper.Map<Room>(roomDto);
             _db.Rooms.Add(room);
             await _db.SaveChangesAsync();
             await _db.Entry(room).Reference(r => r.Department).LoadAsync();
