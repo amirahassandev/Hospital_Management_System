@@ -109,6 +109,180 @@
     ]
   },
   {
+    "ContainingType": "HospitalManagementSystem.Controllers.BillingController",
+    "Method": "CreateBilling",
+    "RelativePath": "api/Billing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billingDto",
+        "Type": "HospitalManagementSystem.Dto.Billing.AddBillingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.BillingController",
+    "Method": "GetAllBills",
+    "RelativePath": "api/Billing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.BillingController",
+    "Method": "GetBilling",
+    "RelativePath": "api/Billing/{billId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.BillingController",
+    "Method": "UpdateBilling",
+    "RelativePath": "api/Billing/{billId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "billingDto",
+        "Type": "HospitalManagementSystem.Dto.Billing.UpdateBillingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.BillingController",
+    "Method": "DeleteBilling",
+    "RelativePath": "api/Billing/{billId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "GetAll",
+    "RelativePath": "api/ContactMessage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "CreateMessage",
+    "RelativePath": "api/ContactMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageDto",
+        "Type": "HospitalManagementSystem.Dto.ContactMessage.CreateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "GetMessage",
+    "RelativePath": "api/ContactMessage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "GetMessagesOfPatient",
+    "RelativePath": "api/ContactMessage/{id}/patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/ContactMessage/{messageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.ContactMessageController",
+    "Method": "UpdateMessage",
+    "RelativePath": "api/ContactMessage/{messageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "messageDto",
+        "Type": "HospitalManagementSystem.Dto.ContactMessage.UpdateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HospitalManagementSystem.Controllers.DepartmentController",
     "Method": "CreateDepartment",
     "RelativePath": "api/Department",
@@ -673,6 +847,85 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.NursePatientController",
+    "Method": "GetAllNursePatient",
+    "RelativePath": "api/NursePatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.NursePatientController",
+    "Method": "AssignNurseToPatient",
+    "RelativePath": "api/NursePatient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nursePatientDto",
+        "Type": "HospitalManagementSystem.Dto.NursePatient.AddNursePatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.NursePatientController",
+    "Method": "UpdateNursePatient",
+    "RelativePath": "api/NursePatient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nursePatientDto",
+        "Type": "HospitalManagementSystem.Dto.NursePatient.UpdateNursePatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.NursePatientController",
+    "Method": "RemoveNursePatient",
+    "RelativePath": "api/NursePatient/{nurseId}/{patientId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nurseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.NursePatientController",
+    "Method": "GetAssignmentsForPatient",
+    "RelativePath": "api/NursePatient/{patientId}/assignments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "HospitalManagementSystem.Controllers.PatientsController",

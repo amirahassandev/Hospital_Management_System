@@ -11,6 +11,7 @@ namespace HospitalManagementSystem.Data.Models;
 public partial class Patient
 {
     [Key]
+    [Required]
     public int PatientId { get; set; }
 
     [StringLength(20)]

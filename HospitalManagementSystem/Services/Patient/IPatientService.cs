@@ -7,7 +7,7 @@ namespace HospitalManagementSystem.Services
     public interface IPatientService
     {
         Task<IEnumerable<ReadPatient?>> GetAll();
-        Task<ReadPatient?> GetPatient(int id);
+        Task<ReadPatient> GetPatient(int id);
         Task<IEnumerable<ReadPatient?>> GetAllDeactivatedPatientsAsync();
         Task<ReadPatient?> AddPatientAsync(AddPatientDto patient);
         Task<ReadPatient?> UpdatePatientAsync(int id, UpdatePatientDto dto);

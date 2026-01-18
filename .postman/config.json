@@ -1,0 +1,14 @@
+{
+  "workspace": {
+    "id": "96f157d4-f5cc-4f2d-8af3-23ec4dfe76c2"
+  },
+  "entities": {
+    "collections": [
+      "..\\Hospital.postman_collection.json"
+    ],
+    "environments": [],
+    "specs": [],
+    "flows": [],
+    "globals": []
+  }
+}

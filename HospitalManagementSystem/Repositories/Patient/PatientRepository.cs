@@ -21,16 +21,21 @@ namespace HospitalManagementSystem.Repositories
         async Task<IEnumerable<Patient>> IPationtRepository.GetAll()
         {
             var patients = await _db.Patients
+                .Include(p => p.NursePatients)
+                    .ThenInclude(p => p.Nurse)
                 .Include(p => p.User)
-                .ThenInclude(u => u.Role)
+                    .ThenInclude(u => u.Role)
                 .ToListAsync();
             return patients;
         }
-        async Task<Patient> IPationtRepository.GetPatient(int id)
+        async Task<Patient?> IPationtRepository.GetPatient(int id)
         {
             var patient = await _db.Patients
                 .Include(p => p.User)
-                .ThenInclude(u => u.Role)
+                    .ThenInclude(u => u.Role)
+                .Include(p => p.NursePatients)
+                    .ThenInclude(np => np.Nurse)
+                        .ThenInclude(n => n.User)
                 .FirstOrDefaultAsync(p => p.PatientId == id);
             return patient;
         }

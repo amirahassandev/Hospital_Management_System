@@ -8,5 +8,6 @@ namespace HospitalManagementSystem.Dto.Patient
         public string bloodType { get; set; } = null!;
         public bool IsActive { get; set; } = true;
         public UserReadDto? userReadDto { get; set; }
+        public List<string> NurseNames { get; set; } = new();
     }
 }

@@ -36,12 +36,14 @@ namespace HospitalManagementSystem.Services
         async Task<ReadPatient?> IPatientService.GetPatient(int id)
         {
             var patient = await _repo.GetPatient(id);
+            if (patient == null) return null;
             return _mapper.Map<ReadPatient>(patient);
         }
 
         async Task<IEnumerable<ReadPatient?>> IPatientService.GetAllDeactivatedPatientsAsync()
         {
             var patients = await _repo.GetAllDeactive();
+            if (patients == null) return null;
             return _mapper.Map<IEnumerable<ReadPatient>>(patients);
         }
 

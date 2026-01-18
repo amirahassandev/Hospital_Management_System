@@ -11,7 +11,7 @@ namespace HospitalManagementSystem.Repositories
         Task<IEnumerable<Patient>> GetAllDeactive();
         // Returns all deactivated (inactive) patients sorted ascending.
 
-        Task<Patient> GetPatient(int id);
+        Task<Patient?> GetPatient(int id);
         // Returns a single patient by their ID.
 
         Task<bool> DeletePatient(int id);
