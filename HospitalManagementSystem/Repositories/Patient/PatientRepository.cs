@@ -21,6 +21,12 @@ namespace HospitalManagementSystem.Repositories
         async Task<IEnumerable<Patient>> IPationtRepository.GetAll()
         {
             var patients = await _db.Patients
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .Include(p => p.NursePatients)
                     .ThenInclude(p => p.Nurse)
                 .Include(p => p.User)
@@ -31,6 +37,12 @@ namespace HospitalManagementSystem.Repositories
         async Task<Patient?> IPationtRepository.GetPatient(int id)
         {
             var patient = await _db.Patients
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .Include(p => p.User)
                     .ThenInclude(u => u.Role)
                 .Include(p => p.NursePatients)
@@ -43,8 +55,14 @@ namespace HospitalManagementSystem.Repositories
         {
             IEnumerable<Patient> deactivePatients = await _db.Patients
                 .Where(p => p.IsActive == false)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .Include(p => p.User)
-                .ThenInclude(u => u.Role)
+                    .ThenInclude(u => u.Role)
                 .ToListAsync();
             return deactivePatients;
         }
@@ -131,6 +149,12 @@ namespace HospitalManagementSystem.Repositories
             var patients = await _db.Patients
                 .Where(p => p.BloodType != null &&
                             EF.Functions.Like(p.BloodType, bloodType + "%"))
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .ToListAsync();
 
             return patients;
@@ -146,6 +170,12 @@ namespace HospitalManagementSystem.Repositories
             bool gen = gender.Trim().ToLower() == "female"; // true if female, false if male
 
             var patients = await _db.Patients
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .Include(p => p.User)
                 .Where(p => p.User != null && p.User.Gender == gen)
                 .ToListAsync();
@@ -161,6 +191,12 @@ namespace HospitalManagementSystem.Repositories
             name = name.Trim();
 
             var patients = await _db.Patients
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.RoomStatus)
+                .Include(p => p.Admissions)
+                    .ThenInclude(a => a.Room)
+                        .ThenInclude(r => r.Department)
                 .Include(p => p.User)
                 .Where(p => p.User != null &&
                        (

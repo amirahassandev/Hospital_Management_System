@@ -2,7 +2,9 @@
 using HospitalManagementSystem.Data;
 using HospitalManagementSystem.Mappers;
 using HospitalManagementSystem.Repositories;
+using HospitalManagementSystem.Repositories.Admissions;
 using HospitalManagementSystem.Services;
+using HospitalManagementSystem.Services.Admissions;
 using HospitalManagementSystem.Services.ContactMessage;
 using Microsoft.EntityFrameworkCore;
 
@@ -40,8 +42,8 @@ namespace HospitalManagementSystem
                 typeof(PatientProfile),
                 typeof(ContactMessageProfile),
                 typeof(NursePatientProfile),
-                typeof(BillingProfile)
-
+                typeof(BillingProfile),
+                typeof(AdmissionProfile)
             );
 
             builder.Services.AddScoped<IPationtRepository, PatientRepository>();
@@ -59,6 +61,8 @@ namespace HospitalManagementSystem
             builder.Services.AddScoped<IBillingRepository, BillingRepository>();
             builder.Services.AddScoped<IBillingService, BillingService>();
 
+            builder.Services.AddScoped<IAdmissionService, AdmissionService>();
+            builder.Services.AddScoped<IAdmissionRepository, AdmissionRepository>();
 
             var app = builder.Build();
             

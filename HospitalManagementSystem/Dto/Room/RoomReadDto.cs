@@ -8,7 +8,7 @@
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; } = null!;
 
-        public int RoomStatusId { get; set; }
+        public int RoomStatusId { get; set; } = 2;
         public string RoomStatusName { get; set; } = null!;
 
         public int AdmissionsCount { get; set; }

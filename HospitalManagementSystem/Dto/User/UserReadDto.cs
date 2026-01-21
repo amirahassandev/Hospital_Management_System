@@ -9,8 +9,7 @@ namespace HospitalManagementSystem.Dto.User
         //public string PasswordHash { get; set; } = null!;
         public string Email { get; set; } = null!;
         public DateTime? CreatedAt { get; set; }
-        public string FirstName { get; set; } = null!;
-        public string? LastName { get; set; }
+        public string? FullName { get; set; } = null!;
         public string Phone { get; set; } = null!;
         public DateOnly DateOfBirth { get; set; }
         public int? Age { get; set; }

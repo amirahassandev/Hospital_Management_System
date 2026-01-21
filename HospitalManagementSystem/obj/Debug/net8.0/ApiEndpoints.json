@@ -1,5 +1,68 @@
 [
   {
+    "ContainingType": "HospitalManagementSystem.Controllers.AdmissionController",
+    "Method": "GetAllAdmissions",
+    "RelativePath": "api/Admission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.AdmissionController",
+    "Method": "CreateAdmission",
+    "RelativePath": "api/Admission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admissionDto",
+        "Type": "HospitalManagementSystem.Dto.Admission.AddAdmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.AdmissionController",
+    "Method": "GetAdmissionById",
+    "RelativePath": "api/Admission/{admissionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admissionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.AdmissionController",
+    "Method": "UpdateAdmission",
+    "RelativePath": "api/Admission/{admissionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admissionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "admissionDto",
+        "Type": "HospitalManagementSystem.Dto.Admission.UpdateAdmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HospitalManagementSystem.Controllers.AppointmentController",
     "Method": "GetById",
     "RelativePath": "api/Appointment/{id}",

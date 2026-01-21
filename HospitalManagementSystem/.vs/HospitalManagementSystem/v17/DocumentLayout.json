@@ -3,44 +3,80 @@
   "WorkspaceRootPath": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\services\\billing\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:services\\billing\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\services\\admissions\\admissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:services\\admissions\\admissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\services\\billing\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:services\\billing\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\repositories\\admissions\\iadmissionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:repositories\\admissions\\iadmissionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\admission\\updateadmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\admission\\updateadmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\billing\\readbillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\billing\\readbillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\billing\\addbillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\billing\\addbillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\room\\roomreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\room\\roomreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\billing\\updatebillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\billing\\updatebillingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\mappers\\billingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:mappers\\billingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\mappers\\admissionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:mappers\\admissionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\repositories\\billing\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:repositories\\billing\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\repositories\\billing\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:repositories\\billing\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\mappers\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:mappers\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\data\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:data\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\mappers\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:mappers\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\helpers\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:helpers\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\repositories\\patient\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:repositories\\patient\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\patient\\readpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\patient\\readpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\room\\roomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\room\\roomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\dto\\admission\\addadmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:dto\\admission\\addadmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\mappers\\roomprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:mappers\\roomprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|d:\\new folder\\projects\\hospital_management_system\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DFB73-0FE1-412A-8573-B99AF205A496}|HospitalManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,145 +86,260 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Billing.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Billing.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Billing.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Billing.cs",
-              "RelativeToolTip": "Data\\Models\\Billing.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Admission.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Admission.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Admission.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Admission.cs",
+              "RelativeToolTip": "Data\\Models\\Admission.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:25:44.669Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBillingRepository.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Billing\\IBillingRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Billing\\IBillingRepository.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Billing\\IBillingRepository.cs",
-              "RelativeToolTip": "Repositories\\Billing\\IBillingRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:37:00.036Z",
+              "WhenOpened": "2026-01-21T10:22:20.102Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IBillingService.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Billing\\IBillingService.cs",
-              "RelativeDocumentMoniker": "Services\\Billing\\IBillingService.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Billing\\IBillingService.cs",
-              "RelativeToolTip": "Services\\Billing\\IBillingService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAwAAAAeAAAAAAAAAA==",
+              "Title": "IAdmissionsRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Admissions\\IAdmissionsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Admissions\\IAdmissionsRepository.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Admissions\\IAdmissionsRepository.cs",
+              "RelativeToolTip": "Repositories\\Admissions\\IAdmissionsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:53:49.407Z",
+              "WhenOpened": "2026-01-21T10:36:33.266Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BillingService.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Billing\\BillingService.cs",
-              "RelativeDocumentMoniker": "Services\\Billing\\BillingService.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Billing\\BillingService.cs",
-              "RelativeToolTip": "Services\\Billing\\BillingService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIA2wDwAAAAbAAAAAAAAAA==",
+              "Title": "AdmissionService.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Admissions\\AdmissionService.cs",
+              "RelativeDocumentMoniker": "Services\\Admissions\\AdmissionService.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Services\\Admissions\\AdmissionService.cs",
+              "RelativeToolTip": "Services\\Admissions\\AdmissionService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:54:01.866Z",
+              "WhenOpened": "2026-01-21T12:07:21.092Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ReadBillingDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\ReadBillingDto.cs",
-              "RelativeDocumentMoniker": "Dto\\Billing\\ReadBillingDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\ReadBillingDto.cs",
-              "RelativeToolTip": "Dto\\Billing\\ReadBillingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdmissionController.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\AdmissionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdmissionController.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\AdmissionController.cs",
+              "RelativeToolTip": "Controllers\\AdmissionController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEEAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:56:06.136Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateBillingDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\UpdateBillingDto.cs",
-              "RelativeDocumentMoniker": "Dto\\Billing\\UpdateBillingDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\UpdateBillingDto.cs",
-              "RelativeToolTip": "Dto\\Billing\\UpdateBillingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:06:16.322Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BillingRepository.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Billing\\BillingRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Billing\\BillingRepository.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Billing\\BillingRepository.cs",
-              "RelativeToolTip": "Repositories\\Billing\\BillingRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAewCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:35:05.176Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BillingController.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\BillingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BillingController.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\BillingController.cs",
-              "RelativeToolTip": "Controllers\\BillingController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAEYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:08:43.131Z",
+              "WhenOpened": "2026-01-21T12:06:56.347Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BillingProfile.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\BillingProfile.cs",
-              "RelativeDocumentMoniker": "Mappers\\BillingProfile.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\BillingProfile.cs",
-              "RelativeToolTip": "Mappers\\BillingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Title": "AdmissionProfile.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\AdmissionProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\AdmissionProfile.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\AdmissionProfile.cs",
+              "RelativeToolTip": "Mappers\\AdmissionProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:00:05.77Z",
+              "WhenOpened": "2026-01-21T12:08:17.962Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddBillingDto.cs",
-              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\AddBillingDto.cs",
-              "RelativeDocumentMoniker": "Dto\\Billing\\AddBillingDto.cs",
-              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Billing\\AddBillingDto.cs",
-              "RelativeToolTip": "Dto\\Billing\\AddBillingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PatientProfile.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\PatientProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\PatientProfile.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\PatientProfile.cs",
+              "RelativeToolTip": "Mappers\\PatientProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:03:03.982Z",
+              "WhenOpened": "2026-01-21T13:52:54.779Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomProfile.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\RoomProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\RoomProfile.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\RoomProfile.cs",
+              "RelativeToolTip": "Mappers\\RoomProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:01:33.956Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateAdmissionDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Admission\\UpdateAdmissionDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Admission\\UpdateAdmissionDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Admission\\UpdateAdmissionDto.cs",
+              "RelativeToolTip": "Dto\\Admission\\UpdateAdmissionDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:43:19.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Room.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Data\\Models\\Room.cs",
+              "RelativeToolTip": "Data\\Models\\Room.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:14:22.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\UserProfile.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Mappers\\UserProfile.cs",
+              "RelativeToolTip": "Mappers\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:58:24.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Patient\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Patient\\PatientRepository.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Repositories\\Patient\\PatientRepository.cs",
+              "RelativeToolTip": "Repositories\\Patient\\PatientRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:28:53.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomReadDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Room\\RoomReadDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Room\\RoomReadDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Room\\RoomReadDto.cs",
+              "RelativeToolTip": "Dto\\Room\\RoomReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:21:18.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoomCreateDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Room\\RoomCreateDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Room\\RoomCreateDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Room\\RoomCreateDto.cs",
+              "RelativeToolTip": "Dto\\Room\\RoomCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:58:03.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:52:17.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HelperMethods.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Helpers\\HelperMethods.cs",
+              "RelativeDocumentMoniker": "Helpers\\HelperMethods.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Helpers\\HelperMethods.cs",
+              "RelativeToolTip": "Helpers\\HelperMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:31:18.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReadPatient.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Patient\\ReadPatient.cs",
+              "RelativeDocumentMoniker": "Dto\\Patient\\ReadPatient.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Patient\\ReadPatient.cs",
+              "RelativeToolTip": "Dto\\Patient\\ReadPatient.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:24:22.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:41:19.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddAdmissionDto.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Admission\\AddAdmissionDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Admission\\AddAdmissionDto.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Dto\\Admission\\AddAdmissionDto.cs",
+              "RelativeToolTip": "Dto\\Admission\\AddAdmissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:52:46.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\New folder\\Projects\\Hospital_Management_System\\HospitalManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwEAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:41:56.276Z",
               "EditorCaption": ""
             }
           ]

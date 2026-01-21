@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HospitalManagementSystem.Data.Models;
+using HospitalManagementSystem.Dto.Admission;
 using HospitalManagementSystem.Dto.Patient;
 using HospitalManagementSystem.Dto.Room;
 using HospitalManagementSystem.Dto.User;
@@ -20,26 +21,21 @@ namespace HospitalManagementSystem.Mappers
                             : p.NursePatients
                                 .Where(np => np.Nurse != null && np.Nurse.User != null)
                                 .Select(np => np.Nurse.User.FirstName)
-                                .ToList()));
+                                .ToList()))
+                .ForMember(rp => rp.readAdmissionDto, o => o.MapFrom(p => p.Admissions));
+
+            CreateMap<Admission, ReadAdmissionDto>()
+                .ForMember(ra => ra.roomReadDto, o => o.MapFrom(a => a.Room));
+
+            CreateMap<Room, RoomReadDto>()
+                .ForMember(rr => rr.RoomStatusName, o => o.MapFrom(r => r.RoomStatus.Status))
+                .ForMember(rr => rr.DepartmentName, o => o.MapFrom(r => r.Department.DepartmentName));
 
             CreateMap<AddPatientDto, Patient>()
                 .ForMember(p => p.User, o => o.Ignore())
                 .ForMember(p => p.UserId, o => o.Ignore());
 
             CreateMap<User, UserReadDto>();
-
-            //CreateMap<ReadPatient, Patient>()
-            //    .ForMember(p => p.User, o => o.MapFrom(rp => rp.userReadDto))
-            //    .ForMember(p => p.User.Role.RoleType, o => o.MapFrom(rp => rp.userReadDto.Role));
-
-            //CreateMap<CreateUserDto, User>();
-
-
-
-            //CreateMap<User, UserReadDto>()
-            //    .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role.RoleType));
-
-
         }
     }
 }
