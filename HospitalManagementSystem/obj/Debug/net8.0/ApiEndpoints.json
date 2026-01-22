@@ -1239,6 +1239,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HospitalManagementSystem.Controllers.PrescriptionController",
+    "Method": "GetAllPrescription",
+    "RelativePath": "api/Prescription",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PrescriptionController",
+    "Method": "CreatePrescription",
+    "RelativePath": "api/Prescription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrescriptionDto",
+        "Type": "HospitalManagementSystem.Dto.Prescription.AddPrescriptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PrescriptionController",
+    "Method": "GetPrescriptionById",
+    "RelativePath": "api/Prescription/{prescriptionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescriptionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagementSystem.Controllers.PrescriptionController",
+    "Method": "UpdatePrescription",
+    "RelativePath": "api/Prescription/{prescriptionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescriptionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prescriptionDto",
+        "Type": "HospitalManagementSystem.Dto.Prescription.UpdatePrescriptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HospitalManagementSystem.Controllers.ReceptionistsController",
     "Method": "GetById",
     "RelativePath": "api/Receptionists/{id}",

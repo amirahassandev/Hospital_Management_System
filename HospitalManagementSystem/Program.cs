@@ -43,7 +43,8 @@ namespace HospitalManagementSystem
                 typeof(ContactMessageProfile),
                 typeof(NursePatientProfile),
                 typeof(BillingProfile),
-                typeof(AdmissionProfile)
+                typeof(AdmissionProfile),
+                typeof(PrescriptionProfile)
             );
 
             builder.Services.AddScoped<IPationtRepository, PatientRepository>();
@@ -63,6 +64,10 @@ namespace HospitalManagementSystem
 
             builder.Services.AddScoped<IAdmissionService, AdmissionService>();
             builder.Services.AddScoped<IAdmissionRepository, AdmissionRepository>();
+
+            builder.Services.AddScoped<IPrescriptionRepository, PrescriptionRepository>();
+            builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
+
 
             var app = builder.Build();
             
